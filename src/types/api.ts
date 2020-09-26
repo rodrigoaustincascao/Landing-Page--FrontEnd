@@ -1,3 +1,10 @@
+export type TechIcon = {
+  title: string
+  icon: {
+    url: string
+  }
+}
+
 export type Image = {
   alternativeText: string
   url: string
@@ -21,12 +28,6 @@ export type SectionAboutProjectProps = {
   image: Image
 }
 
-export type TechIcon = {
-  title: string
-  icon: {
-    url: string
-  }
-}
 export type SectionTechProps = {
   title: string
   techIcons: TechIcon[]
